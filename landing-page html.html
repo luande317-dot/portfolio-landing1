@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio LS - Soluções Digitais Inteligentes</title>
+    <meta name="description" content="Descubra soluções digitais inteligentes para seu negócio, Pages, CRM, Finance, Chat e Studio (IA). Portfolio de serviços para agências, consultores, e-commerce e mais.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      /* A small addition for better typography with Tailwind */
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+      body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://api.whatsapp.com/send?phone=5511955717272&text=Ol%C3%A1,%20vim%20pelo%20site" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50 animate-bounce">
+        <i class="fab fa-whatsapp text-2xl"></i>
+    </a>
+
+    <!-- Header/Navigation -->
+    <header class="bg-black text-white p-4 shadow-lg sticky top-0 z-40">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#hero" class="text-2xl font-extrabold text-yellow-400 hover:text-yellow-300 transition-colors duration-300">Otimizz AI Solutions</a>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#services" class="hover:text-yellow-400 transition-colors duration-300">Serviços</a></li>
+                <li><a href="#portfolio" class="hover:text-yellow-400 transition-colors duration-300">Portfólio</a></li>
+                <li><a href="#about" class="hover:text-yellow-400 transition-colors duration-300">Sobre</a></li>
+                <li><a href="#contact" class="hover:text-yellow-400 transition-colors duration-300">Contato</a></li>
+            </ul>
+            <a href="#contact" class="hidden md:block bg-yellow-500 text-gray-900 py-2 px-5 rounded-full hover:bg-yellow-400 transition-all duration-300 font-semibold shadow-md">Fale Conosco</a>
+            <button class="md:hidden text-white text-2xl focus:outline-none">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-gradient-to-br from-black to-gray-800 text-center py-20 md:py-32 relative overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('https://picsum.photos/seed/techbg/1920/1080');"></div>
+        <div class="container mx-auto relative z-10 px-4">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4 text-yellow-400 drop-shadow-lg">Transforme Seu Negócio com Inteligência Artificial</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-300">Especialista nas plataformas de IA, ofereço soluções digitais integradas para impulsionar seu crescimento.</p>
+            <a href="#services" class="inline-block bg-yellow-500 text-gray-900 text-xl font-bold py-4 px-10 rounded-full hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 shadow-xl animate-pulse">Descubra Nossos Serviços</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-900 text-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-center mb-12 text-yellow-400">Algumas Soluções IA</h2>
+            <p class="text-center text-lg max-w-3xl mx-auto mb-16 text-gray-300">Aproveitando o poder das IAs Pages, CRM, Finance, Chat e Studio (IA), crio estratégias digitais personalizadas para diversos segmentos.</p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Serviço 1: Agências de Marketing e Social Media -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 border-t-4 border-yellow-500">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-bullhorn text-3xl text-yellow-400 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-yellow-400">Agências de Marketing</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">Criação e gestão de campanhas digitais com IA integrada.</p>
+                    <ul class="list-disc list-inside text-gray-400 space-y-2">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Landing pages de alta conversão</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Conteúdo otimizado por IA (Studio)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Gestão de leads e automações (CRM)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Atendimento automatizado (Chat IA)</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 2: Consultores, Coaches e Profissionais Liberais -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 border-t-4 border-yellow-500">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-user-tie text-3xl text-yellow-400 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-yellow-400">Consultores & Coaches</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">Consultoria digital automatizada com IA e CRM.</p>
+                    <ul class="list-disc list-inside text-gray-400 space-y-2">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Site profissional e captação de clientes (Pages)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>CRM para acompanhamento e lembretes</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>E-mails automáticos e nutrição de leads</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Atendimento inicial automatizado (Chat)</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 3: E-commerce e Vendas Online -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 border-t-4 border-yellow-500">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-shopping-cart text-3xl text-yellow-400 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-yellow-400">E-commerce & Vendas</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">Gestão completa de loja digital com IA.</p>
+                    <ul class="list-disc list-inside text-gray-400 space-y-2">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Páginas de produto e checkout personalizados</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Automação de carrinho abandonado (CRM)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Controle financeiro e fluxo de caixa (Finance)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Geração de imagens de produtos com IA (Studio)</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 4: Educadores, Psicólogos e Terapeutas -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 border-t-4 border-yellow-500">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-chalkboard-teacher text-3xl text-yellow-400 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-yellow-400">Educação & Saúde</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">Presença digital completa para profissionais da saúde e educação.</p>
+                    <ul class="list-disc list-inside text-gray-400 space-y-2">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Portfólio digital e agendamento de sessões</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Gerador de conteúdo reflexivo (Studio)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Chat com IA para dúvidas e triagem</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Design visual humanizado com IA</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 5: Criadores de Conteúdo e Influenciadores -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 border-t-4 border-yellow-500">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-video text-3xl text-yellow-400 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-yellow-400">Criadores de Conteúdo</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">Gestão de conteúdo e marca pessoal com IA.</p>
+                    <ul class="list-disc list-inside text-gray-400 space-y-2">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Criação de identidade visual e templates</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Geração de ideias, roteiros e legendas (Studio)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Gestão de parcerias e contatos (CRM)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Análise de desempenho e organização</li>
+                    </ul>
+                </div>
+
+                <!-- Serviço 6: Pequenas Empresas e Empreendedores -->
+                <div class="bg-gray-800 p-8 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 border-t-4 border-yellow-500">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-building text-3xl text-yellow-400 mr-4"></i>
+                        <h3 class="text-2xl font-bold text-yellow-400">Pequenas Empresas</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">Gestão digital integrada com IA para pequenos negócios.</p>
+                    <ul class="list-disc list-inside text-gray-400 space-y-2">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Site institucional e páginas de serviços</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>CRM para clientes e propostas</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Gestão financeira automatizada (Finance)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Criação de conteúdo de marketing com IA</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="mt-16 text-center">
+                <h3 class="text-3xl font-bold text-yellow-400 mb-6">Serviços Técnicos e Personalizados</h3>
+                <p class="text-gray-300 mb-8 max-w-2xl mx-auto">Ofereço também implementação e personalização avançada para atender suas necessidades específicas.</p>
+                <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-gray-300 max-w-4xl mx-auto text-left">
+                    <li class="flex items-center"><i class="fas fa-cogs text-yellow-500 mr-3"></i>Configuração de funis de automação</li>
+                    <li class="flex items-center"><i class="fas fa-chart-line text-yellow-500 mr-3"></i>Otimização de landing pages para conversão</li>
+                    <li class="flex items-center"><i class="fas fa-paint-brush text-yellow-500 mr-3"></i>Criação de copy e artes com IA</li>
+                    <li class="flex items-center"><i class="fas fa-handshake text-yellow-500 mr-3"></i>Consultoria de vendas automatizadas</li>
+                    <li class="flex items-center"><i class="fas fa-tachometer-alt text-yellow-500 mr-3"></i>Relatórios e dashboards de desempenho</li>
+                    <li class="flex items-center"><i class="fas fa-users text-yellow-500 mr-3"></i>Gestão de clientes com pipeline visual</li>
+                    <li class="flex items-center"><i class="fas fa-layer-group text-yellow-500 mr-3"></i>Criação de templates personalizados</li>
+                    <li class="flex items-center"><i class="fas fa-laptop-code text-yellow-500 mr-3"></i>Implantação completa para terceiros</li>
+                </ul>
+                <a href="#contact" class="mt-12 inline-block bg-yellow-500 text-gray-900 text-lg font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 shadow-xl">Solicite Orçamento</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof (Testimonials) -->
+    <section id="portfolio" class="bg-gray-800 py-16 text-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-extrabold text-center mb-12 text-yellow-400">O que Meus Clientes Dizem</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl border-l-4 border-yellow-500">
+                    <p class="text-gray-300 italic mb-4">"A implementação de estratégias IA revolucionou nossa captação de leads. As landing pages e o CRM são incríveis!"</p>
+                    <div class="flex items-center">
+                        <img src="https://picsum.photos/seed/person1/60/60" alt="Foto de Cliente 1" class="w-12 h-12 rounded-full mr-4 border-2 border-yellow-500">
+                        <div>
+                            <p class="font-bold text-white">Ana Paula S.</p>
+                            <p class="text-sm text-yellow-400">Diretora de Marketing, Agência X</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl border-l-4 border-yellow-500">
+                    <p class="text-gray-300 italic mb-4">"Com a ajuda da LS, meu site profissional e a gestão de agendamentos ficaram muito mais fáceis. Recomendo!"</p>
+                    <div class="flex items-center">
+                        <img src="https://picsum.photos/seed/person2/60/60" alt="Foto de Cliente 2" class="w-12 h-12 rounded-full mr-4 border-2 border-yellow-500">
+                        <div>
+                            <p class="font-bold text-white">Carlos M.</p>
+                            <p class="text-sm text-yellow-400">Consultor de Negócios</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-900 p-8 rounded-lg shadow-xl border-l-4 border-yellow-500">
+                    <p class="text-gray-300 italic mb-4">"O Studio IA da LS nos ajudou a criar imagens de produtos incríveis e a gerenciar nosso e-commerce de forma impecável."</p>
+                    <div class="flex items-center">
+                        <img src="https://picsum.photos/seed/person3/60/60" alt="Foto de Cliente 3" class="w-12 h-12 rounded-full mr-4 border-2 border-yellow-500">
+                        <div>
+                            <p class="font-bold text-white">Fernanda G.</p>
+                            <p class="text-sm text-yellow-400">Gerente de E-commerce, Loja Online Y</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section id="contact" class="bg-gradient-to-r from-yellow-500 to-yellow-600 py-20 text-gray-900 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-md">Pronto para Otimizar Seu Negócio?</h2>
+            <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto">Não perca mais tempo! Entre em contato e descubra como a LS pode levar sua empresa para o próximo nível.</p>
+            <a href="https://api.whatsapp.com/send?phone=5511955717272&text=Ol%C3%A1,%20vim%20pelo%20site" target="_blank" class="inline-block bg-gray-900 text-yellow-400 text-xl font-bold py-4 px-12 rounded-full hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 shadow-xl animate-bounce-slow">Fale Comigo Agora! <i class="fab fa-whatsapp ml-3"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-400 py-10">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <div class="mb-6 md:mb-0">
+                <h4 class="text-2xl font-extrabold text-yellow-400 mb-2">LS Presença Visual</h4>
+                <p>&copy; 2025 Todos os direitos reservados.</p>
+            </div>
+            <div class="mb-6 md:mb-0">
+                <h5 class="text-lg font-semibold text-white mb-3">Links Rápidos</h5>
+                <ul>
+                    <li><a href="#services" class="hover:text-yellow-400 transition-colors duration-300">Meus Serviços</a></li>
+                    <li><a href="#portfolio" class="hover:text-yellow-400 transition-colors duration-300">Depoimentos</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400 transition-colors duration-300">Contato</a></li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-lg font-semibold text-white mb-3">Conecte-se</h5>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors duration-300"><i class="fab fa-facebook-f text-xl"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors duration-300"><i class="fab fa-instagram text-xl"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-yellow-400 transition-colors duration-300"><i class="fab fa-linkedin-in text-xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple JS for mobile menu toggle (optional, but good for UX) -->
+    <script>
+        document.querySelector('header button').addEventListener('click', function() {
+            document.querySelector('header ul').classList.toggle('hidden');
+            document.querySelector('header ul').classList.toggle('flex');
+            document.querySelector('header ul').classList.toggle('flex-col');
+            document.querySelector('header ul').classList.toggle('absolute');
+            document.querySelector('header ul').classList.toggle('top-full');
+            document.querySelector('header ul').classList.toggle('left-0');
+            document.querySelector('header ul').classList.toggle('bg-black');
+            document.querySelector('header ul').classList.toggle('w-full');
+            document.querySelector('header ul').classList.toggle('py-4');
+            document.querySelector('header ul').classList.toggle('space-y-2');
+            document.querySelector('header ul').classList.toggle('items-center');
+        });
+    </script>
+</body>
+</html>
